@@ -1,0 +1,48 @@
+<!-- Content here -->
+<div class="container">
+  <form method="POST" action="/">
+    <div>
+      <center>
+        <h1>你想對誰說幹話？</h1>
+      </center>
+    </div>
+    <div class="row">
+      <div class="col-6 col-md-4">
+        <div class="card" style="width: 18rem;">
+          <img src="/img/coder.jpeg" class="card-img-top" alt="..." height="220" width="250">
+          <div class="card-body">
+            <p class="card-text">
+              <input type="radio" class="" id="coder" name="coder">工程師</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-4">
+        <div class="card" style="width: 18rem;">
+          <img src="/img/designer.jpg" class="card-img-top" alt="..." height="220" width="250">
+          <div class="card-body">
+            <p class="card-text">
+              <input type="radio" class="" id="designer" name="designer">設計師</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-4">
+        <div class="card" style="width: 18rem;">
+          <img src="/img/startup.jpg" class="card-img-top" alt="..." height="220" width="250">
+          <div class="card-body">
+            <p class="card-text">
+              <input type="radio" class="" id="startup" name="startup">創業家</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-2 col-md-1">
+        <button class="btn btn-success" type="submit">產生幹話</button>
+      </div>
+      <div class="form-group col-16 col-md-10">
+        <textarea class="form-control" id="phrase" name="phrase" rows="3">{{stupidphrase}}</textarea>
+      </div>
+    </div>
+  </form>
+</div>
