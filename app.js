@@ -4,7 +4,7 @@ const app = express()
 const exphbs = require('express-handlebars')
 const bodyParser = require('body-parser')
 const generatePhrase = require('./generate_phrase')
-const port = 8080
+const port = 80
 
 //設定樣版引擎
 app.engine('handlebars', exphbs({ defaultLayout: 'main' }))
