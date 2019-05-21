@@ -24,6 +24,6 @@ app.post('/', (req, res) => {
 })
 
 //開始express伺服器及監聽
-app.listen(port, () => {
+app.listen(process.env.PORT || 8080, () => {
   console.log(`express app listening on port ${port} .`)
 })
